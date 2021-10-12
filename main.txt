@@ -1,0 +1,117 @@
+Microsoft Windows [Version 10.0.19043.1266]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User>nslookup www.facebook.com
+Server:  dsldevice.lan
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    star-mini.c10r.facebook.com
+Addresses:  2a03:2880:f144:181:face:b00c:0:25de
+          157.240.239.35
+Aliases:  www.facebook.com
+
+
+C:\Users\User>nslookup www.github.com
+Server:  dsldevice.lan
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    github.com
+Address:  13.234.210.38
+Aliases:  www.github.com
+
+
+C:\Users\User>nslookup www.google.com
+Server:  dsldevice.lan
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2404:6800:4007:81a::2004
+          142.250.194.4
+
+
+C:\Users\User>ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-HOME
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : E8-D8-D1-FB-AD-05
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 72-66-55-01-B5-21
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 70-66-55-01-B5-21
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+   Physical Address. . . . . . . . . : 70-66-55-01-B5-21
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::c45b:c591:47bf:10fe%6(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.5(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 11 October 2021 14:42:26
+   Lease Expires . . . . . . . . . . : 13 October 2021 13:04:20
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 108029525
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-25-F0-45-08-E8-D8-D1-FB-AD-05
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\User>ping www.facebook.com
+
+Pinging star-mini.c10r.facebook.com [157.240.239.35] with 32 bytes of data:
+Reply from 157.240.239.35: bytes=32 time=104ms TTL=57
+Reply from 157.240.239.35: bytes=32 time=73ms TTL=57
+Reply from 157.240.239.35: bytes=32 time=73ms TTL=57
+Reply from 157.240.239.35: bytes=32 time=75ms TTL=57
+
+Ping statistics for 157.240.239.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 73ms, Maximum = 104ms, Average = 81ms
+
+C:\Users\User>ping www.github.com
+
+Pinging github.com [13.234.210.38] with 32 bytes of data:
+Reply from 13.234.210.38: bytes=32 time=34ms TTL=50
+Reply from 13.234.210.38: bytes=32 time=35ms TTL=50
+Reply from 13.234.210.38: bytes=32 time=36ms TTL=50
+Reply from 13.234.210.38: bytes=32 time=34ms TTL=50
+
+Ping statistics for 13.234.210.38:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 36ms, Average = 34ms
+
+C:\Users\User>
